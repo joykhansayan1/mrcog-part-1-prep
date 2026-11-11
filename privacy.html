@@ -19,8 +19,8 @@
 
   <h2>Data we process</h2>
   <ul>
-    <li><strong>Study progress (on device):</strong> answers, scores, bookmarks, streaks, exam date, daily goals and reminder preferences are stored locally on your device using on-device storage (e.g. UserDefaults / app sandbox).</li>
-    <li><strong>Purchases:</strong> subscription and lifetime unlocks are processed by Apple through StoreKit / App Store. We do not receive your full payment card details. Apple may share limited purchase/entitlement status with the app to unlock features.</li>
+    <li><strong>Study progress (on device):</strong> answers, scores, bookmarks, streaks, exam date, daily goals and reminder preferences are stored locally on your device using on-device storage (e.g. UserDefaults / app sandbox on iOS, app-private SharedPreferences on Android).</li>
+    <li><strong>Purchases:</strong> subscription and lifetime unlocks are processed by Apple through StoreKit / App Store. We do not receive your full payment card details. Apple may share limited purchase/entitlement status with the app to unlock features. On Android, purchases are processed by Google Play Billing; Google shares only the purchase status the app needs to unlock features, and we never receive your payment details.</li>
     <li><strong>Optional notifications:</strong> if you enable a daily study reminder, the system notification framework schedules a local notification on your device. We do not operate a remote push server for this app.</li>
     <li><strong>Support email:</strong> if you email us, we receive the content of your message and your email address to respond.</li>
   </ul>
@@ -43,7 +43,7 @@
   <p>Local study data remains on your device until you delete the app or use in-app reset progress. To request deletion of any support email correspondence, contact us at the address above.</p>
 
   <h2>International users</h2>
-  <p>The App Store may process transactions in your region under Apple’s terms. Our support inbox may receive messages from any country.</p>
+  <p>The App Store may process transactions in your region under Apple’s terms, and Google Play under Google’s terms. Our support inbox may receive messages from any country.</p>
 
   <h2>Changes</h2>
   <p>We may update this policy; the effective date above will change. Continued use after updates constitutes acceptance of the revised policy where permitted by law.</p>
